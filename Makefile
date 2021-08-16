@@ -1,4 +1,4 @@
-# GNU Makefile for MacportsLegacySupport
+# GNU Makefile for https://github.com/macports/macports-legacy-support/releases/tag/v1.0.3sLegacySupport
 # Copyright (c) 2018 Chris Jones <jonesc@macports.org>
 # Copyright (c) 2019 Michael Dickens <michaelld@macports.org>
 #
@@ -21,8 +21,8 @@ PKGINCDIR        = $(PREFIX)/include/$(INCSUBDIR)
 LIBDIR           = $(PREFIX)/lib
 AREXT            = .a
 SOEXT            = .dylib
-LIBNAME          = MacportsLegacySupport
-SYSLIBNAME       = MacportsLegacySystem.B
+LIBNAME          = iOSLegacySupport
+SYSLIBNAME       = iOSLegacySystem.B
 DLIBFILE         = lib$(LIBNAME)$(SOEXT)
 SLIBFILE         = lib$(LIBNAME)$(AREXT)
 SYSLIBFILE       = lib$(SYSLIBNAME)$(SOEXT)
